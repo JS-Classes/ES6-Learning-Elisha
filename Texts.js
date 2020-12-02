@@ -40,5 +40,15 @@ console.log(g);
 
 
 
+//Regular Expression
+
+let message = "Hello! This is just the random text to use for the example in js class";
+let regexVowels = /[aeiou]/gim; // it means its either a,e,i,o,u ang g means globally
+let matches = message.match(regexVowels);
+
+console.log(matches);
+
+
+
 
 
