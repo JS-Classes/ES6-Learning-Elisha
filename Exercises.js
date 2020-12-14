@@ -71,16 +71,16 @@ function Multitable(m, n, range = 10) {
     //b. Number of special characters.
     //c. Number of vowels and consonants.
 
-function Para (){
-    for (i=0; i<=j; i++){
-    let paragraph = 'JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else. (Okay, not everything, but it is amazing what you can achieve with a few lines of JavaScript code.)'
-    let j = 
-    console.log(i);
-    console.log(paragraph.split('.'));
-}    
-};
+// function Para (){
+//     for (i=0; i<=j; i++){
+//     let paragraph = 'JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, animate images, and pretty much everything else. (Okay, not everything, but it is amazing what you can achieve with a few lines of JavaScript code.)'
+//     let j = 7
+//     console.log(i);
+//     console.log(paragraph.split('.'));
+// }    
+// };
 
-Para();
+// Para();
 
 //Find a random number between provided m and n
 
