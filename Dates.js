@@ -78,6 +78,6 @@ function findAge (year,month,date){
     return `${newyear} years ${newmon} month ${newdate} days`;
 };
 
-let age = findAge(1993,9,4);
+let age = findAge(1993,4,9);
 console.log (age);
 
