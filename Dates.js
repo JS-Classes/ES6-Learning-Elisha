@@ -78,6 +78,27 @@ function findAge (year,month,date){
     return `${newyear} years ${newmon} month ${newdate} days`;
 };
 
-let age = findAge(1993,4,9);
+let age = findAge(1945,8,28);
 console.log (age);
 
+
+
+
+let calculateAge = (dob) => {
+    let dobDate = new Date(dob);
+    let now = new Date();
+
+    let ageInMs = now - dobDate;
+    let ageInDays = ageInMs / (1000 * 60 * 60 *24)
+   
+    let ageInYears = Math.floor(ageInDays /365);
+    let remainingdays = ageInDays % 365;
+
+    let ageInMonths = Math.floor (remainingdays /30);
+     remainingdays = Math.round(remainingdays % 30);
+
+    return `${ageInYears} years, ${ageInMonths} months, ${remainingdays} days`;
+
+};
+
+console.log(calculateAge("1990-2-5"));
