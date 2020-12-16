@@ -41,3 +41,4 @@ const allNumbers = [34, 45, ...numbers, 12, 89];
 
 let numbers = [[3, 4, 5], [6, 1, 2]];  // 2 by 3 2 rows and 3 columns
 
+authors.forEach (authors => console.log(authors));
